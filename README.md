@@ -1,2 +1,2 @@
-# twitter-stream-pipeline
-A Twitter Stream Processing Pipeline with ingestion, processing, storage, and visualization.
+# Twitter Stream Processing Pipeline
+A pipeline to ingest, process, store, and visualize tweets in real-time.
