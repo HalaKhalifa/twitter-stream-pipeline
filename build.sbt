@@ -11,3 +11,6 @@ libraryDependencies ++= Seq(
   "com.typesafe" % "config" % "1.4.2",
   "org.json4s" %% "json4s-native" % "4.0.6"
 )
+libraryDependencies += "org.apache.kafka" % "kafka-clients" % "3.5.0"
+// https://mvnrepository.com/artifact/org.apache.spark/spark-sql-kafka-0-10
+libraryDependencies += "org.apache.spark" %% "spark-sql-kafka-0-10" % "3.5.0"
