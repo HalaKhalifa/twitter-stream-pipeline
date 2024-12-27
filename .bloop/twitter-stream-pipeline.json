@@ -18,7 +18,7 @@
             "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar",
             "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.5.3/spark-core_2.13-3.5.3.jar",
             "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.13/3.4.0/spark-streaming_2.13-3.4.0.jar",
-            "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/client/elasticsearch-rest-high-level-client/7.17.9/elasticsearch-rest-high-level-client-7.17.9.jar",
+            "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/client/elasticsearch-rest-high-level-client/7.17.10/elasticsearch-rest-high-level-client-7.17.10.jar",
             "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar",
             "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-native_2.13/4.0.6/json4s-native_2.13-4.0.6.jar",
             "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parallel-collections_2.13/1.0.4/scala-parallel-collections_2.13-1.0.4.jar",
@@ -82,13 +82,13 @@
             "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/sf/py4j/py4j/0.10.9.7/py4j-0.10.9.7.jar",
             "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-tags_2.13/3.5.3/spark-tags_2.13-3.5.3.jar",
             "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-crypto/1.1.0/commons-crypto-1.1.0.jar",
-            "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch/7.17.9/elasticsearch-7.17.9.jar",
-            "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/client/elasticsearch-rest-client/7.17.9/elasticsearch-rest-client-7.17.9.jar",
-            "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/mapper-extras-client/7.17.9/mapper-extras-client-7.17.9.jar",
-            "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/parent-join-client/7.17.9/parent-join-client-7.17.9.jar",
-            "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/aggs-matrix-stats-client/7.17.9/aggs-matrix-stats-client-7.17.9.jar",
-            "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/rank-eval-client/7.17.9/rank-eval-client-7.17.9.jar",
-            "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/lang-mustache-client/7.17.9/lang-mustache-client-7.17.9.jar",
+            "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch/7.17.10/elasticsearch-7.17.10.jar",
+            "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/client/elasticsearch-rest-client/7.17.10/elasticsearch-rest-client-7.17.10.jar",
+            "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/mapper-extras-client/7.17.10/mapper-extras-client-7.17.10.jar",
+            "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/parent-join-client/7.17.10/parent-join-client-7.17.10.jar",
+            "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/aggs-matrix-stats-client/7.17.10/aggs-matrix-stats-client-7.17.10.jar",
+            "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/rank-eval-client/7.17.10/rank-eval-client-7.17.10.jar",
+            "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/lang-mustache-client/7.17.10/lang-mustache-client-7.17.10.jar",
             "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-core_2.13/4.0.6/json4s-core_2.13-4.0.6.jar",
             "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-native-core_2.13/4.0.6/json4s-native-core_2.13-4.0.6.jar",
             "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar",
@@ -131,11 +131,11 @@
             "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-classes-epoll/4.1.96.Final/netty-transport-classes-epoll-4.1.96.Final.jar",
             "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-classes-kqueue/4.1.96.Final/netty-transport-classes-kqueue-4.1.96.Final.jar",
             "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar",
-            "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-core/7.17.9/elasticsearch-core-7.17.9.jar",
-            "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-secure-sm/7.17.9/elasticsearch-secure-sm-7.17.9.jar",
-            "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-x-content/7.17.9/elasticsearch-x-content-7.17.9.jar",
-            "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-geo/7.17.9/elasticsearch-geo-7.17.9.jar",
-            "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-lz4/7.17.9/elasticsearch-lz4-7.17.9.jar",
+            "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-core/7.17.10/elasticsearch-core-7.17.10.jar",
+            "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-secure-sm/7.17.10/elasticsearch-secure-sm-7.17.10.jar",
+            "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-x-content/7.17.10/elasticsearch-x-content-7.17.10.jar",
+            "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-geo/7.17.10/elasticsearch-geo-7.17.10.jar",
+            "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-lz4/7.17.10/elasticsearch-lz4-7.17.10.jar",
             "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/lucene/lucene-core/8.11.1/lucene-core-8.11.1.jar",
             "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/8.11.1/lucene-analyzers-common-8.11.1.jar",
             "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/lucene/lucene-backward-codecs/8.11.1/lucene-backward-codecs-8.11.1.jar",
@@ -149,13 +149,13 @@
             "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/8.11.1/lucene-sandbox-8.11.1.jar",
             "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/lucene/lucene-spatial3d/8.11.1/lucene-spatial3d-8.11.1.jar",
             "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/lucene/lucene-suggest/8.11.1/lucene-suggest-8.11.1.jar",
-            "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-cli/7.17.9/elasticsearch-cli-7.17.9.jar",
+            "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-cli/7.17.10/elasticsearch-cli-7.17.10.jar",
             "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/carrotsearch/hppc/0.8.1/hppc-0.8.1.jar",
             "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.12.5/joda-time-2.12.5.jar",
             "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/tdunning/t-digest/3.2/t-digest-3.2.jar",
             "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.9/HdrHistogram-2.1.9.jar",
             "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.10.0/jna-5.10.0.jar",
-            "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-plugin-classloader/7.17.9/elasticsearch-plugin-classloader-7.17.9.jar",
+            "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-plugin-classloader/7.17.10/elasticsearch-plugin-classloader-7.17.10.jar",
             "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10.jar",
             "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.12/httpcore-4.4.12.jar",
             "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpasyncclient/4.1.4/httpasyncclient-4.1.4.jar",
@@ -298,7 +298,7 @@
                 "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar",
                 "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.5.3/spark-core_2.13-3.5.3.jar",
                 "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.13/3.4.0/spark-streaming_2.13-3.4.0.jar",
-                "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/client/elasticsearch-rest-high-level-client/7.17.9/elasticsearch-rest-high-level-client-7.17.9.jar",
+                "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/client/elasticsearch-rest-high-level-client/7.17.10/elasticsearch-rest-high-level-client-7.17.10.jar",
                 "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar",
                 "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-native_2.13/4.0.6/json4s-native_2.13-4.0.6.jar",
                 "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parallel-collections_2.13/1.0.4/scala-parallel-collections_2.13-1.0.4.jar",
@@ -362,13 +362,13 @@
                 "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/sf/py4j/py4j/0.10.9.7/py4j-0.10.9.7.jar",
                 "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-tags_2.13/3.5.3/spark-tags_2.13-3.5.3.jar",
                 "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-crypto/1.1.0/commons-crypto-1.1.0.jar",
-                "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch/7.17.9/elasticsearch-7.17.9.jar",
-                "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/client/elasticsearch-rest-client/7.17.9/elasticsearch-rest-client-7.17.9.jar",
-                "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/mapper-extras-client/7.17.9/mapper-extras-client-7.17.9.jar",
-                "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/parent-join-client/7.17.9/parent-join-client-7.17.9.jar",
-                "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/aggs-matrix-stats-client/7.17.9/aggs-matrix-stats-client-7.17.9.jar",
-                "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/rank-eval-client/7.17.9/rank-eval-client-7.17.9.jar",
-                "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/lang-mustache-client/7.17.9/lang-mustache-client-7.17.9.jar",
+                "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch/7.17.10/elasticsearch-7.17.10.jar",
+                "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/client/elasticsearch-rest-client/7.17.10/elasticsearch-rest-client-7.17.10.jar",
+                "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/mapper-extras-client/7.17.10/mapper-extras-client-7.17.10.jar",
+                "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/parent-join-client/7.17.10/parent-join-client-7.17.10.jar",
+                "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/aggs-matrix-stats-client/7.17.10/aggs-matrix-stats-client-7.17.10.jar",
+                "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/rank-eval-client/7.17.10/rank-eval-client-7.17.10.jar",
+                "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/lang-mustache-client/7.17.10/lang-mustache-client-7.17.10.jar",
                 "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-core_2.13/4.0.6/json4s-core_2.13-4.0.6.jar",
                 "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-native-core_2.13/4.0.6/json4s-native-core_2.13-4.0.6.jar",
                 "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar",
@@ -411,11 +411,11 @@
                 "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-classes-epoll/4.1.96.Final/netty-transport-classes-epoll-4.1.96.Final.jar",
                 "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-classes-kqueue/4.1.96.Final/netty-transport-classes-kqueue-4.1.96.Final.jar",
                 "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar",
-                "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-core/7.17.9/elasticsearch-core-7.17.9.jar",
-                "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-secure-sm/7.17.9/elasticsearch-secure-sm-7.17.9.jar",
-                "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-x-content/7.17.9/elasticsearch-x-content-7.17.9.jar",
-                "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-geo/7.17.9/elasticsearch-geo-7.17.9.jar",
-                "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-lz4/7.17.9/elasticsearch-lz4-7.17.9.jar",
+                "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-core/7.17.10/elasticsearch-core-7.17.10.jar",
+                "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-secure-sm/7.17.10/elasticsearch-secure-sm-7.17.10.jar",
+                "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-x-content/7.17.10/elasticsearch-x-content-7.17.10.jar",
+                "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-geo/7.17.10/elasticsearch-geo-7.17.10.jar",
+                "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-lz4/7.17.10/elasticsearch-lz4-7.17.10.jar",
                 "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/lucene/lucene-core/8.11.1/lucene-core-8.11.1.jar",
                 "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/8.11.1/lucene-analyzers-common-8.11.1.jar",
                 "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/lucene/lucene-backward-codecs/8.11.1/lucene-backward-codecs-8.11.1.jar",
@@ -429,13 +429,13 @@
                 "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/8.11.1/lucene-sandbox-8.11.1.jar",
                 "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/lucene/lucene-spatial3d/8.11.1/lucene-spatial3d-8.11.1.jar",
                 "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/lucene/lucene-suggest/8.11.1/lucene-suggest-8.11.1.jar",
-                "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-cli/7.17.9/elasticsearch-cli-7.17.9.jar",
+                "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-cli/7.17.10/elasticsearch-cli-7.17.10.jar",
                 "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/carrotsearch/hppc/0.8.1/hppc-0.8.1.jar",
                 "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.12.5/joda-time-2.12.5.jar",
                 "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/tdunning/t-digest/3.2/t-digest-3.2.jar",
                 "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.9/HdrHistogram-2.1.9.jar",
                 "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.10.0/jna-5.10.0.jar",
-                "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-plugin-classloader/7.17.9/elasticsearch-plugin-classloader-7.17.9.jar",
+                "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-plugin-classloader/7.17.10/elasticsearch-plugin-classloader-7.17.10.jar",
                 "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10.jar",
                 "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.12/httpcore-4.4.12.jar",
                 "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpasyncclient/4.1.4/httpasyncclient-4.1.4.jar",
@@ -516,17 +516,17 @@
                 {
                     "organization": "org.elasticsearch.client",
                     "name": "elasticsearch-rest-high-level-client",
-                    "version": "7.17.9",
+                    "version": "7.17.10",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "elasticsearch-rest-high-level-client",
-                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/client/elasticsearch-rest-high-level-client/7.17.9/elasticsearch-rest-high-level-client-7.17.9.jar"
+                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/client/elasticsearch-rest-high-level-client/7.17.10/elasticsearch-rest-high-level-client-7.17.10.jar"
                         },
                         {
                             "name": "elasticsearch-rest-high-level-client",
                             "classifier": "sources",
-                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/client/elasticsearch-rest-high-level-client/7.17.9/elasticsearch-rest-high-level-client-7.17.9-sources.jar"
+                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/client/elasticsearch-rest-high-level-client/7.17.10/elasticsearch-rest-high-level-client-7.17.10-sources.jar"
                         }
                     ]
                 },
@@ -1526,119 +1526,119 @@
                 {
                     "organization": "org.elasticsearch",
                     "name": "elasticsearch",
-                    "version": "7.17.9",
+                    "version": "7.17.10",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "elasticsearch",
-                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch/7.17.9/elasticsearch-7.17.9.jar"
+                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch/7.17.10/elasticsearch-7.17.10.jar"
                         },
                         {
                             "name": "elasticsearch",
                             "classifier": "sources",
-                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch/7.17.9/elasticsearch-7.17.9-sources.jar"
+                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch/7.17.10/elasticsearch-7.17.10-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "org.elasticsearch.client",
                     "name": "elasticsearch-rest-client",
-                    "version": "7.17.9",
+                    "version": "7.17.10",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "elasticsearch-rest-client",
-                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/client/elasticsearch-rest-client/7.17.9/elasticsearch-rest-client-7.17.9.jar"
+                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/client/elasticsearch-rest-client/7.17.10/elasticsearch-rest-client-7.17.10.jar"
                         },
                         {
                             "name": "elasticsearch-rest-client",
                             "classifier": "sources",
-                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/client/elasticsearch-rest-client/7.17.9/elasticsearch-rest-client-7.17.9-sources.jar"
+                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/client/elasticsearch-rest-client/7.17.10/elasticsearch-rest-client-7.17.10-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "org.elasticsearch.plugin",
                     "name": "mapper-extras-client",
-                    "version": "7.17.9",
+                    "version": "7.17.10",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "mapper-extras-client",
-                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/mapper-extras-client/7.17.9/mapper-extras-client-7.17.9.jar"
+                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/mapper-extras-client/7.17.10/mapper-extras-client-7.17.10.jar"
                         },
                         {
                             "name": "mapper-extras-client",
                             "classifier": "sources",
-                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/mapper-extras-client/7.17.9/mapper-extras-client-7.17.9-sources.jar"
+                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/mapper-extras-client/7.17.10/mapper-extras-client-7.17.10-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "org.elasticsearch.plugin",
                     "name": "parent-join-client",
-                    "version": "7.17.9",
+                    "version": "7.17.10",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "parent-join-client",
-                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/parent-join-client/7.17.9/parent-join-client-7.17.9.jar"
+                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/parent-join-client/7.17.10/parent-join-client-7.17.10.jar"
                         },
                         {
                             "name": "parent-join-client",
                             "classifier": "sources",
-                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/parent-join-client/7.17.9/parent-join-client-7.17.9-sources.jar"
+                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/parent-join-client/7.17.10/parent-join-client-7.17.10-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "org.elasticsearch.plugin",
                     "name": "aggs-matrix-stats-client",
-                    "version": "7.17.9",
+                    "version": "7.17.10",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "aggs-matrix-stats-client",
-                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/aggs-matrix-stats-client/7.17.9/aggs-matrix-stats-client-7.17.9.jar"
+                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/aggs-matrix-stats-client/7.17.10/aggs-matrix-stats-client-7.17.10.jar"
                         },
                         {
                             "name": "aggs-matrix-stats-client",
                             "classifier": "sources",
-                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/aggs-matrix-stats-client/7.17.9/aggs-matrix-stats-client-7.17.9-sources.jar"
+                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/aggs-matrix-stats-client/7.17.10/aggs-matrix-stats-client-7.17.10-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "org.elasticsearch.plugin",
                     "name": "rank-eval-client",
-                    "version": "7.17.9",
+                    "version": "7.17.10",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "rank-eval-client",
-                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/rank-eval-client/7.17.9/rank-eval-client-7.17.9.jar"
+                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/rank-eval-client/7.17.10/rank-eval-client-7.17.10.jar"
                         },
                         {
                             "name": "rank-eval-client",
                             "classifier": "sources",
-                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/rank-eval-client/7.17.9/rank-eval-client-7.17.9-sources.jar"
+                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/rank-eval-client/7.17.10/rank-eval-client-7.17.10-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "org.elasticsearch.plugin",
                     "name": "lang-mustache-client",
-                    "version": "7.17.9",
+                    "version": "7.17.10",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "lang-mustache-client",
-                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/lang-mustache-client/7.17.9/lang-mustache-client-7.17.9.jar"
+                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/lang-mustache-client/7.17.10/lang-mustache-client-7.17.10.jar"
                         },
                         {
                             "name": "lang-mustache-client",
                             "classifier": "sources",
-                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/lang-mustache-client/7.17.9/lang-mustache-client-7.17.9-sources.jar"
+                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/plugin/lang-mustache-client/7.17.10/lang-mustache-client-7.17.10-sources.jar"
                         }
                     ]
                 },
@@ -2359,85 +2359,85 @@
                 {
                     "organization": "org.elasticsearch",
                     "name": "elasticsearch-core",
-                    "version": "7.17.9",
+                    "version": "7.17.10",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "elasticsearch-core",
-                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-core/7.17.9/elasticsearch-core-7.17.9.jar"
+                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-core/7.17.10/elasticsearch-core-7.17.10.jar"
                         },
                         {
                             "name": "elasticsearch-core",
                             "classifier": "sources",
-                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-core/7.17.9/elasticsearch-core-7.17.9-sources.jar"
+                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-core/7.17.10/elasticsearch-core-7.17.10-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "org.elasticsearch",
                     "name": "elasticsearch-secure-sm",
-                    "version": "7.17.9",
+                    "version": "7.17.10",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "elasticsearch-secure-sm",
-                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-secure-sm/7.17.9/elasticsearch-secure-sm-7.17.9.jar"
+                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-secure-sm/7.17.10/elasticsearch-secure-sm-7.17.10.jar"
                         },
                         {
                             "name": "elasticsearch-secure-sm",
                             "classifier": "sources",
-                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-secure-sm/7.17.9/elasticsearch-secure-sm-7.17.9-sources.jar"
+                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-secure-sm/7.17.10/elasticsearch-secure-sm-7.17.10-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "org.elasticsearch",
                     "name": "elasticsearch-x-content",
-                    "version": "7.17.9",
+                    "version": "7.17.10",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "elasticsearch-x-content",
-                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-x-content/7.17.9/elasticsearch-x-content-7.17.9.jar"
+                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-x-content/7.17.10/elasticsearch-x-content-7.17.10.jar"
                         },
                         {
                             "name": "elasticsearch-x-content",
                             "classifier": "sources",
-                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-x-content/7.17.9/elasticsearch-x-content-7.17.9-sources.jar"
+                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-x-content/7.17.10/elasticsearch-x-content-7.17.10-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "org.elasticsearch",
                     "name": "elasticsearch-geo",
-                    "version": "7.17.9",
+                    "version": "7.17.10",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "elasticsearch-geo",
-                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-geo/7.17.9/elasticsearch-geo-7.17.9.jar"
+                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-geo/7.17.10/elasticsearch-geo-7.17.10.jar"
                         },
                         {
                             "name": "elasticsearch-geo",
                             "classifier": "sources",
-                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-geo/7.17.9/elasticsearch-geo-7.17.9-sources.jar"
+                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-geo/7.17.10/elasticsearch-geo-7.17.10-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "org.elasticsearch",
                     "name": "elasticsearch-lz4",
-                    "version": "7.17.9",
+                    "version": "7.17.10",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "elasticsearch-lz4",
-                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-lz4/7.17.9/elasticsearch-lz4-7.17.9.jar"
+                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-lz4/7.17.10/elasticsearch-lz4-7.17.10.jar"
                         },
                         {
                             "name": "elasticsearch-lz4",
                             "classifier": "sources",
-                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-lz4/7.17.9/elasticsearch-lz4-7.17.9-sources.jar"
+                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-lz4/7.17.10/elasticsearch-lz4-7.17.10-sources.jar"
                         }
                     ]
                 },
@@ -2665,17 +2665,17 @@
                 {
                     "organization": "org.elasticsearch",
                     "name": "elasticsearch-cli",
-                    "version": "7.17.9",
+                    "version": "7.17.10",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "elasticsearch-cli",
-                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-cli/7.17.9/elasticsearch-cli-7.17.9.jar"
+                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-cli/7.17.10/elasticsearch-cli-7.17.10.jar"
                         },
                         {
                             "name": "elasticsearch-cli",
                             "classifier": "sources",
-                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-cli/7.17.9/elasticsearch-cli-7.17.9-sources.jar"
+                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-cli/7.17.10/elasticsearch-cli-7.17.10-sources.jar"
                         }
                     ]
                 },
@@ -2767,17 +2767,17 @@
                 {
                     "organization": "org.elasticsearch",
                     "name": "elasticsearch-plugin-classloader",
-                    "version": "7.17.9",
+                    "version": "7.17.10",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "elasticsearch-plugin-classloader",
-                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-plugin-classloader/7.17.9/elasticsearch-plugin-classloader-7.17.9.jar"
+                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-plugin-classloader/7.17.10/elasticsearch-plugin-classloader-7.17.10.jar"
                         },
                         {
                             "name": "elasticsearch-plugin-classloader",
                             "classifier": "sources",
-                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-plugin-classloader/7.17.9/elasticsearch-plugin-classloader-7.17.9-sources.jar"
+                            "path": "/Users/halakhalifa/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/elasticsearch/elasticsearch-plugin-classloader/7.17.10/elasticsearch-plugin-classloader-7.17.10-sources.jar"
                         }
                     ]
                 },
