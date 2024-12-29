@@ -6,7 +6,7 @@ import org.apache.kafka.common.serialization.{StringDeserializer, StringSerializ
 object KafkaConfig {
 
   private val bootstrapServers = "localhost:9092" // Adjust this to your Kafka brokers
-  val topicName = "tweets-topic"           // Kafka topic name
+  val topicName = "tweets1-topic"           // Kafka topic name
 
   // Producer configuration
   def getProducerConfig(): Properties = {
