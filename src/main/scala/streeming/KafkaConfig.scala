@@ -6,7 +6,7 @@ import org.apache.kafka.common.serialization.{StringDeserializer, StringSerializ
 object KafkaConfig {
 
   private val bootstrapServers = "localhost:9092" // Adjust this to your Kafka brokers
-  val topicName = "tweets-topic"           // Kafka topic name
+  val topicName = "renad"           // Kafka topic name (updated to renad)
 
   // Producer configuration
   def getProducerConfig(): Properties = {
@@ -18,14 +18,14 @@ object KafkaConfig {
     props
   }
 
-  // Consumer configuration
+  // Consumer configuration with auto.offset.reset set to earliest (consume from the beginning)
   def getConsumerConfig(): Properties = {
     val props = new Properties()
     props.put("bootstrap.servers", bootstrapServers)
     props.put("group.id", "test-consumer-group") // Consumer group ID
     props.put("key.deserializer", classOf[StringDeserializer].getName)
     props.put("value.deserializer", classOf[StringDeserializer].getName)
-    props.put("auto.offset.reset", "earliest") // To start reading from the earliest message if no offset is stored
+    props.put("auto.offset.reset", "earliest") // This ensures that the consumer starts from the earliest offset
     props
   }
 }
