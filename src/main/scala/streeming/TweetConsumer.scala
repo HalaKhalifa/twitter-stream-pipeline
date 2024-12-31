@@ -10,7 +10,7 @@ object TweetConsumer {
     // Load Kafka consumer configuration
     val consumer = new KafkaConsumer[String, String](KafkaConfig.getConsumerConfig())
 
-    // Subscribe to the Kafka topic
+    // Subscribe to the Kafka topic (renad)
     consumer.subscribe(List(KafkaConfig.topicName).asJava)
 
     var tweetCount = 0

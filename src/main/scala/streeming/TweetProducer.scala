@@ -9,7 +9,7 @@ object TweetProducer {
   def main(args: Array[String]): Unit = {
     // Load producer configuration
     val producerProps = KafkaConfig.getProducerConfig()
-    val topic = KafkaConfig.topicName
+    val topic = KafkaConfig.topicName  // Renamed to 'renad' topic
 
     // Initialize Kafka producer
     val producer = new KafkaProducer[String, String](producerProps)
