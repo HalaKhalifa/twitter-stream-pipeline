@@ -1,4 +1,4 @@
-package streeming
+package streaming
 
 import org.apache.kafka.clients.consumer.KafkaConsumer
 import scala.jdk.CollectionConverters._
@@ -16,17 +16,27 @@ object TweetConsumer {
     var tweetCount = 0
 
     // Poll Kafka for messages
-    while (true) {
-      val records = consumer.poll(java.time.Duration.ofMillis(500))
-      records.records(KafkaConfig.topicName).asScala.foreach { record =>
-        tweetCount += 1
+    try {
+      while (true) {
+        val records = consumer.poll(java.time.Duration.ofMillis(500))
 
-        // Call TweetProcessor to process the data
-        TweetProcessor.process(record.value())
+        // Ensure records exist before processing
+        if (!records.isEmpty) {
+          records.records(KafkaConfig.topicName).asScala.foreach { record =>
+            tweetCount += 1
+
+            // Call TweetProcessor to process the data and perform sentiment analysis
+            TweetProcessor.process(record.value()) // Ensure that this is a String
+          }
+
+          // Print the total number of tweets processed so far
+          println(s"Total tweets processed: $tweetCount")
+        }
       }
-
-      // Print the total number of tweets received so far
-      println(s"Total tweets processed: $tweetCount")
+    } catch {
+      case e: InterruptedException =>
+        println("Kafka consumer interrupted.")
+        consumer.close() // Gracefully close the consumer
     }
   }
 }

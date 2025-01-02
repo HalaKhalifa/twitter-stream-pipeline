@@ -1,10 +1,9 @@
-package streeming
+package streaming
 
 import java.util.Properties
 import org.apache.kafka.common.serialization.{StringDeserializer, StringSerializer}
 
 object KafkaConfig {
-
   private val bootstrapServers = "localhost:9092" // Adjust this to your Kafka brokers
   val topicName = "renad"           // Kafka topic name (updated to renad)
 
