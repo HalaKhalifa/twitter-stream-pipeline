@@ -1,4 +1,4 @@
-package streeming
+package streaming
 
 import org.apache.kafka.clients.producer.{KafkaProducer, ProducerRecord, RecordMetadata}
 import scala.io.Source
