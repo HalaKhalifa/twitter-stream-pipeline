@@ -1,9 +1,13 @@
 package utils
 
+import io.circe._
+import io.circe.parser._  // For parsing JSON
+
 object TweetUtils {
 
-  def storeInElasticsearch(tweetJson: String, sentiment: String, hashtags: List[String]): Unit = {
-    // Implement storing tweet data in Elasticsearch (if needed)
-    println(s"Storing tweet in Elasticsearch: $tweetJson, Sentiment: $sentiment, Hashtags: ${hashtags.mkString(", ")}")
+  // Function to extract coordinates from the tweet JSON
+  def extractCoordinates(tweetJson: String): Option[List[Double]] = {
+    val decodedJson = parse(tweetJson).getOrElse(Json.Null)
+    decodedJson.hcursor.downField("coordinates").downField("coordinates").as[List[Double]].toOption
   }
 }
