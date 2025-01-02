@@ -13,6 +13,7 @@ object TweetProcessor {
   // Sentiment analysis using Python script
   def analyzeSentimentWithPython(tweet: String): Json = {
     try {
+
       val process = Process(Seq("python", "python/sentiment_analysis.py", tweet))
       val result = process.!!  // Capture output of the Python script
       parse(result).getOrElse(Json.Null)  // Parse the result into Circe JSON
