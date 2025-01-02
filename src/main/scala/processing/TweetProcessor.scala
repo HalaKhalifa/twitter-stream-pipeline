@@ -63,19 +63,19 @@ object TweetProcessor {
     println(s"Sentiment analysis result: $sentiment")
     
     // Extract coordinates from the tweet
-    val coordinates = TweetUtils.extractCoordinates(tweetJson)
-    println(s"Extracted coordinates: ${coordinates.getOrElse("No coordinates")}")
+    val geoPoint = TweetUtils.extractCoordinates(tweetJson).getOrElse(Json.Null)
+    println(s"Formatted coordinates: $geoPoint")
 
-    // Get the created_at timestamp and format it
+    // Get the created_at timestamp and format it for Elasticsearch
     val createdAt = parse(tweetJson).getOrElse(Json.Null).hcursor.downField("created_at").as[String].getOrElse("")
-    val formattedTime = TimeUtils.formatTweetTime(createdAt)
-    println(s"Formatted created_at: $formattedTime")
+    val formattedTime = TimeUtils.convertToElasticsearchFormat(createdAt)
+    println(s"Formatted created_at for Elasticsearch: $formattedTime")
 
     // Enrich the original JSON with sentiment, hashtags, and coordinates
     parse(tweetJson).getOrElse(Json.Null).mapObject(obj =>
       obj.add("sentiment", Json.fromString(sentiment))
         .add("hashtags", Json.fromValues(hashtags.map(Json.fromString)))
-        .add("coordinates", Json.fromValues(coordinates.getOrElse(List.empty).map(Json.fromDoubleOrNull)))
+        .add("coordinates", geoPoint)
         .add("created_at", Json.fromString(formattedTime))
     )
   
