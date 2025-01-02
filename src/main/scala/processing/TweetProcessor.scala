@@ -9,7 +9,7 @@ object TweetProcessor {
   def analyzeSentimentWithPython(tweet: String): Json = {
     try {
       // Update the path to the Python script
-      val process = Process(Seq("python", "C:/Users/ktech/Desktop/twitter-stream-pipeline/python/sentiment_analysis.py", tweet))
+      val process = Process(Seq("python", "python/sentiment_analysis.py", tweet))
       val result = process.!!  // Capture output of the Python script
       parse(result).getOrElse(Json.Null)  // Parse the result into Circe JSON
     } catch {
