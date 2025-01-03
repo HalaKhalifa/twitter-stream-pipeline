@@ -67,7 +67,7 @@ cd twitter-stream-pipeline
       ```
     - Reset offsets for the consumer group:
       ```bash
-      kafka-consumer-groups.bat --bootstrap-server localhost:9092 --group test-consumer-group --reset-offsets --to-earliest --all-topics --execute
+      kafka-consumer-groups.bat --bootstrap-server localhost:9092 --group tweet-consumer-group --reset-offsets --to-earliest --all-topics --execute
       ```
     - Start the consumer to read from the beginning:
       ```bash
@@ -95,7 +95,7 @@ cd twitter-stream-pipeline
 4. **Before Running Consumer:**
     - Reset offsets for the consumer group:
       ```bash
-      /opt/homebrew/bin/kafka-consumer-groups --bootstrap-server localhost:9092 --group test-consumer-group --reset-offsets --to-earliest --all-topics --execute
+      /opt/homebrew/bin/kafka-consumer-groups --bootstrap-server localhost:9092 --group tweet-consumer-group --reset-offsets --to-earliest --all-topics --execute
       ```
     - Start the consumer to read from the beginning:
       ```bash

@@ -24,7 +24,6 @@ object ElasticsearchClient {
     println(s"Index '${ElasticsearchConfig.getIndexName}' created successfully.")
   }
 
-  // Close the client connection
   def closeClient(client: RestHighLevelClient): Unit = {
     client.close()
     println("Elasticsearch client closed.")

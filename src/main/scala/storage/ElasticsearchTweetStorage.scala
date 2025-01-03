@@ -8,7 +8,6 @@ import io.circe.Json
 
 object ElasticsearchTweetStorage {
 
-  // Define the schema for the tweets index
   val schema: String =
     """
       {
@@ -32,10 +31,8 @@ object ElasticsearchTweetStorage {
       }
     """
 
-  // Initialize Elasticsearch client
   private val client: RestHighLevelClient = ElasticsearchClient.createClient()
 
-  // Ensure the index exists or create it using the ElasticsearchClient's function
   def initializeIndex(): Unit = {
     try {
       ElasticsearchClient.createIndex(client, schema)
@@ -45,7 +42,6 @@ object ElasticsearchTweetStorage {
     }
   }
 
-  // Store a tweet in Elasticsearch
   def storeTweet(tweetJson: Json): Unit = {
     try {
       val request = new IndexRequest(ElasticsearchConfig.getIndexName)
@@ -58,7 +54,6 @@ object ElasticsearchTweetStorage {
     }
   }
 
-  // Close the Elasticsearch client
   def close(): Unit = {
     ElasticsearchClient.closeClient(client)
   }

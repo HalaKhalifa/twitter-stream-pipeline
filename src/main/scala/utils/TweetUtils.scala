@@ -5,7 +5,7 @@ import io.circe.parser._
 
 object TweetUtils {
 
-  // Function to extract coordinates from the tweet JSON and format them as geo_point
+  // extract coordinates from the tweet JSON and format them as geo_point
   def extractCoordinates(tweetJson: String): Option[Json] = {
     val decodedJson = parse(tweetJson).getOrElse(Json.Null)
     val coordinates = decodedJson.hcursor
@@ -14,7 +14,6 @@ object TweetUtils {
       .as[List[Double]]
       .toOption
 
-    // Format the coordinates as geo_point if they exist
     coordinates.map {
       case List(lon, lat) =>
         Json.obj(

@@ -9,24 +9,20 @@ object TweetProducer {
   def main(args: Array[String]): Unit = {
     // Load producer configuration
     val producerProps = KafkaConfig.getProducerConfig()
-    val topic = KafkaConfig.topicName  // Renamed to 'renad' topic
+    val topic = KafkaConfig.topicName
 
-    // Initialize Kafka producer
     val producer = new KafkaProducer[String, String](producerProps)
 
-    // Path to the JSON file
     val jsonFilePath = "src/data/rawData/boulder_flood_geolocated_tweets.json"
 
     var tweetCount = 0
 
-    // Read the JSON file and send messages to Kafka
     Try {
       Using.resource(Source.fromFile(jsonFilePath)) { source =>
         source.getLines().foreach { line =>
           Try {
             val record = new ProducerRecord[String, String](topic, null, line)
 
-            // Send the record with a callback for handling success or failure
             producer.send(record, (metadata: RecordMetadata, exception: Exception) => {
               if (exception != null) {
                 println(s"Error sending message: ${exception.getMessage}")
@@ -54,7 +50,6 @@ object TweetProducer {
 
     println(s"Transmission completed. Total tweets sent: $tweetCount")
 
-    // Close the producer after sending messages
     producer.close()
   }
 }

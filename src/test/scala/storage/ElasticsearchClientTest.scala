@@ -33,10 +33,8 @@ class ElasticsearchClientTester extends AnyFunSuite {
     val client: RestHighLevelClient = ElasticsearchClient.createClient()
 
     try {
-      // Create the index
       ElasticsearchClient.createIndex(client, schema)
 
-      // Verify index creation
       val getIndexRequest = new GetIndexRequest(ElasticsearchConfig.getIndexName)
       val indexExists = client.indices().exists(getIndexRequest, RequestOptions.DEFAULT)
 

@@ -7,13 +7,11 @@ import java.time.Duration
 
 object ProducerTest {
   def main(args: Array[String]): Unit = {
-    // Producer sends messages
     println("Starting Producer Test...")
     TweetProducer.main(Array())
 
     println("Validating messages in Kafka...")
 
-    // Kafka consumer setup for validation
     val props = KafkaConfig.getConsumerConfig()
     val consumer = new KafkaConsumer[String, String](props)
     consumer.subscribe(List(KafkaConfig.topicName).asJava)

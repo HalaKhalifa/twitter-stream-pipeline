@@ -1,6 +1,6 @@
 import sys
 import json
-from textblob import TextBlob  # Make sure to install textblob usingss pip
+from textblob import TextBlob
 
 def analyze_sentiment(tweet):
     blob = TextBlob(tweet)
@@ -14,4 +14,4 @@ def analyze_sentiment(tweet):
 if __name__ == "__main__":
     tweet = sys.argv[1]  # Get tweet from command-line argument
     sentiment_result = analyze_sentiment(tweet)
-    print(json.dumps(sentiment_result))  # Output as JSON
+    print(json.dumps(sentiment_result))

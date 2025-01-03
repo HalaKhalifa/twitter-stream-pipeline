@@ -35,7 +35,6 @@ object ConsumerTest {
         |"lang":"en"
         |}""".stripMargin
 
-    // Send the test message to Kafka
     Try {
       val record = new ProducerRecord[String, String](topic, null, testMessage)
       producer.send(record)
@@ -46,7 +45,6 @@ object ConsumerTest {
 
     producer.close()
 
-    // Run the consumer to process the test message
     println("Running the consumer to process the test message...")
     TweetConsumer.main(Array())
 
