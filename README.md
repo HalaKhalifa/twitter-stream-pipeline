@@ -1,5 +1,7 @@
 # Twitter Stream Processing Pipeline
 
+![Twitter Stream Processing](./assets/twitter_stream_processing.webp)
+
 ## Overview
 The **Twitter Stream Processing Pipeline** is a robust system designed to handle streaming tweets, process and transform the data, and visualize insights through an interactive web application. This pipeline integrates real-time data ingestion, processing, and storage while leveraging Kafka, Elasticsearch, and Kibana.
 
@@ -82,7 +84,7 @@ sbt runMain storage.ElasticsearchClient
 
 Below is a figure illustrating the pipeline:
 
-![Pipeline Overview](./pipeline_overview.png)
+![Pipeline Overview](./assets/pipeline_overview_image.png)
 
 ### Pipeline Components:
 1. **Kafka Producer:** Streams tweets to Kafka topics.
