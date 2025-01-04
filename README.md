@@ -1,5 +1,5 @@
 # **Twitter Stream Processing Pipeline**
-![Twitter Stream Processing](./assets/twitter_stream_processing_image.webp)
+![Twitter Stream Processing](/assets/tweet_pipeline_cover_photo.png)
 
 
 ## **Overview**
@@ -157,7 +157,7 @@ sbt "runMain streaming.TweetConsumer"
 
 Below is a figure illustrating the pipeline:
 
-![Pipeline Overview](./assets/pipeline_overview_image.png)
+![Pipeline Overview](./assets/pipeline.png)
 
 ### Pipeline Components:
 1. **Kafka Producer:** Streams tweets to Kafka topics.
